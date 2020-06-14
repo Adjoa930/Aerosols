@@ -19,7 +19,7 @@
 
 
 #merging all slopes and intercepts together
-cdo mergetime trend_slope.nc trend_intercept.nc slopes_intercept.nc
+cdo mergetime trend_slope.nc trend_intercept.nc trends.nc
 
 
 #calculating regression on the dataset
