@@ -9,7 +9,8 @@
 #subtracting the residuals from the detrended to get seasonal components
 #cdo -b 32 sub seas_resid.nc residual.nc seasonal.nc
 
-
+#calculating trends by subtracting seasons and residuals from the main data
+#cdo -b 32 sub West_Africa_aqua2.nc -add residual.nc seasonal.nc trend_estimate.nc
 
 
 #calculating the trend at all grid points
